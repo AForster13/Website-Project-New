@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+header{
+    background-color:rgba(1, 1, 1, 0.781) !important;
+    font-family: 'Railway', sans-serif;
+  outline-style: ridge; 
+  outline-color: gold;
+}
+
+img {
+    width: 50%;
+    outline-style: ridge; 
+    outline-color: gold;
+    outline-width:1px
+   
+    }
+
+.flex-container{
+    display: flex;
+
+}
+
+/* main pages background */
+
+.aboutpage{
+    background-image: url('./about-background.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+.contactpage{background-image: url('./contact-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.indexpage {
+    color: floralwhite;
+    background-image: url('./indexbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+/* headers */
+h1 {color: gold;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px black;
+}
+h2 {font-family: 'Railway', sans-serif;
+    color: floralwhite;
+    }
+h3 {color: floralwhite;
+    font-family: 'Railway', sans-serif;
+    }
+h4 {color: floralwhite;
+    font-family: 'Railway', sans-serif;
+    }
+
+/* text colour */
+.contenttext {color: floralwhite;}
+
+p{color: floralwhite;
+    font-family: 'Railway', sans-serif;
+  outline-style: ridge; 
+  outline-color: gold; 
+  background-color:rgba(1, 1, 1, 0.781) !important;
+}
+address{color: floralwhite;
+    font-family: 'Railway', sans-serif;
+    outline-style: dashed; 
+    outline-color: gold;
+    background-color:rgba(1, 1, 1, 0.781) !important;
+ }
+
+
+/* buttons colour */
+.button {background-color: rgb(20, 17, 22);
+    color: gold;
+    border-color: yellow
+    
+     }
+.button :hover {background-color: rgba(90, 24, 134, 0.555)!important; 
+    
+    color: rgb(240, 217, 15);
+    border-color: yellow;
+    cursor: pointer;}     
+
+footer{font-family: 'Railway', sans-serif;
+    outline-style: ridge; 
+    outline-color: gold;
+    background-color:rgba(1, 1, 1, 0.781) !important;
+}
